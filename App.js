@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, TouchableOpacity, Text} from 'react-native';
 import {notificationManager} from './src/NotificationManager';
+import PushNotificationIOS from '@react-native-community/push-notification-ios';
 
 export default class App extends Component {
   constructor(props) {
