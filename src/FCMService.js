@@ -13,7 +13,7 @@ class FCMService {
 
   registerAppWithFCM = async () => {
     if (Platform.OS === 'ios') {
-      await messaging().registerDeviceForRemoteMessages();
+      // await messaging().registerDeviceForRemoteMessages();
       await messaging().setAutoInitEnabled(true);
     }
   };
@@ -80,7 +80,7 @@ class FCMService {
       //?notification 빼야하나 ?
       console.log(
         '[FCMService] onNotificationOpenApp Notification caused app to open from background',
-        remoteMessage.notification,
+        remoteMessage,
       );
       if (remoteMessage) {
         const notification = remoteMessage.notification;
@@ -96,7 +96,7 @@ class FCMService {
       .then((remoteMessage) => {
         console.log(
           '[FCMService] getInitialNotification casued app to open from quit state : ',
-          reMoteMessage,
+          remoteMessage,
         );
 
         if (remoteMessage) {

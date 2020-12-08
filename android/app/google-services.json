@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "833255014003",
+    "firebase_url": "https://hyukpush.firebaseio.com",
+    "project_id": "hyukpush",
+    "storage_bucket": "hyukpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833255014003:android:fbf395495011fae76bb406",
+        "android_client_info": {
+          "package_name": "com.hyukpush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833255014003-a8j626qf3r439nitbn1lu1k5uvretv72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyukpush",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "833255014003-48j8b0vnnl1utm61ubp89ksl1vmng31s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYlkUOcnQKXpYOcxHrZdhUZ3-rR_ax9-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833255014003-48j8b0vnnl1utm61ubp89ksl1vmng31s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "833255014003-68gj0fakbhop04a6at328n1obefgdu7j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.hyukpush"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
